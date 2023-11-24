@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "template-ml"
+version = "0.1.0"
+description = "Provide a template project for ML with python, poetry and make."
+authors = ["Ob1On3 <silvasmath@gmail.com>"]
+readme = "README.md"
+packages = [{include = "template_ml"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.2"
+panda = "^0.3.1"
+matplotlib = "^3.8.2"
+scikit-learn = "^1.3.2"
+jupyterlab = "^4.0.9"
+pre-commit = "^3.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
