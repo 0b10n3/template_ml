@@ -161,7 +161,7 @@ cython_debug/
 
 
 # Jupyter related
-*.ipynb_checkpoints
+*/.ipynb_checkpoints
 
 # folders
 data/
