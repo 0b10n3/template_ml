@@ -1,7 +1,7 @@
 # template_ml
 Provide a template project for ML with python, poetry and make
 
-## Petry 
+## Poetry 
 
 First, initialize the project with poetry init.
 
